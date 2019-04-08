@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                     String result = response.body().getResponse();
 
                     if (result.equals("success")) {
-                        startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+                        startActivity(new Intent(LoginActivity.this, AddActivity.class));
                         finish();
                     } else if (result.equals("failed")) {
                         Toast.makeText(LoginActivity.this, "username/password anda salah", Toast.LENGTH_SHORT).show();
