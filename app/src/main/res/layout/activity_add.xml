@@ -51,6 +51,7 @@
         </RadioGroup>
 
         <EditText
+            android:id="@+id/et_content"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:hint="Content"
@@ -58,12 +59,15 @@
             />
 
         <EditText
+            android:id="@+id/et_tanggal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Tanggal"
-            android:inputType="date" />
+            android:inputType="date"
+            android:focusable="false"/>
 
         <EditText
+            android:id="@+id/et_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone"
