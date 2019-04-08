@@ -8,7 +8,7 @@
     android:gravity="center"
     android:padding="16dp"
     android:background="#393737"
-    tools:context=".RegisterActivity">
+    tools:context=".activity.RegisterActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
